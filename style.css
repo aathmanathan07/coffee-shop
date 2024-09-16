@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@448&display=swap');
+
+.heroSection{
+    background-image:linear-gradient(rgba(71, 68, 68, 0.4),rgba(0,0,0,0.4)), url(./assets/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.heroJumbotron{   
+    padding: 15rem 5rem;
+    width: 50%;
+}
+.heroJumbotron h1{
+    font-size: 52px;
+    font-weight: bolder;
+    font-family: "Merienda",cursive;
+}
+.heroJumbotron p{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Merienda",cursive;
+}
+.heroJumbotron button{
+    font-size: 18px;
+    background-color: #BF9C77;
+    border:  2px solid #BF9C77;
+}
+.heroJumbotron button a{
+    text-decoration: none;
+    color: white;
+}
+.ourMenuJumbotron h2{
+    font-family: "Merienda",cursive;
+    font-size: 42px;
+}
+.ourMenuJumbotron p{
+    font-size: 15px;
+}
+.ourMenuJumbotron button{
+    font-size: 18px;
+    background-color: #BF9C77;
+    border:  2px solid #BF9C77;
+
+}
+.ourMenuJumbotron button a{
+    text-decoration: none;
+    color: white;
+}
+.headingTitle h2{
+     font-family: "Merienda",cursive;
+
+}
+.popularCardBody h3{
+    font-size: 18px;
+}
+.galleryBody img{
+    
+    aspect-ratio: 16/11;
+}
+.bookingForm{
+    border: 2px solid black;
+    text-align: center;
+    padding: 40px;
+    width: 70%;
+    align-items: center;
+    
+}
+
+.formGroup input{
+    padding: 10px 40px; width: 80%;
+    border: 2px solid black;
+    
+}
+.formGroup button{
+    background-color: #BF9C77;
+    color: white;
+    border:  2px solid #BF9C77;
+}
+.IconsCard i{
+    color: #BF9C77;
+    font-size: 30px;
+}
+.copyright p span{
+    color: #BF9C77;
+}
+
+@media(max-width:768px){
+
+    .heroJumbotron{
+       
+        padding: 15rem 5rem;
+        width: 100%;
+        color: white;
+    
+    }
+    .heroJumbotron h1{
+        font-size: 35px;
+        font-weight: bolder;
+        font-family: "Merienda",cursive;
+    }
+    .heroJumbotron p{
+        font-size: 18px;
+        font-weight: normal;
+        font-family: "Merienda",cursive;
+    }
+    .heroJumbotron button{
+        font-size: 18px;
+        background-color: #BF9C77;
+        border:  2px solid #BF9C77;
+    }
+    .bookingForm{
+        border: 2px solid black;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        align-items: center;
+        
+    }
+    .formGroup input{
+        padding: 10px 20px; width: 100%;
+        border: 2px solid black;
+        
+    }
+    .ourMenuJumbotron h2{
+        font-family: "Merienda",cursive;
+        font-size: 34px;
+    }
+    .ourMenuJumbotron p{
+        font-size: 15px;
+    }
+
+}
